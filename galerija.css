@@ -1,0 +1,32 @@
+body {
+	background-image:url("crna.jpg");
+	background-size:cover;
+}
+
+.galerija {
+    width: 100%;
+}
+
+.galerija a {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.galerija img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.galerija .naslov {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}

@@ -1,0 +1,201 @@
+body {
+	background-image:url("Sevilla.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center 20%;
+}
+
+h1 {
+	margin-top:50px;
+	color:#000044;
+	font-size:380%;
+	text-align:center;
+}
+
+p {
+	text-align:center;
+	font-size:200%;
+	color:#ddffdd;
+}
+
+ul {
+	list-style:none;
+	padding:20px 40px;
+	margin:20px auto;
+	text-align:center;
+	background-color:grey;
+	width:50%;
+	border-radius:8px;
+	
+}
+
+.navigacija li{
+	font-size:200%;
+	display:inline-block;;
+}
+
+a {
+	text-decoration:none;
+    background-color:pink;
+    color: white;
+    border-radius: 3px;
+    font-size:auto;
+}
+
+a:hover {
+	background-color:#668866;
+}
+
+.aktivnaStrana {
+	background-color:#88aadd;
+}
+
+.kolone {
+	margin-top:50px;
+	width:100%;
+	overflow:visible;
+	padding:0;
+}
+
+.lijeva {
+	float:left;
+	width:45%;
+	margin-top:10px;
+	margin:10px 2.5% 0 2.5%;
+	padding:20px;
+	border-radius:5px;
+	background-color:#348781;
+	color:#ddffdd;;
+	box-sizing:border-box;
+}
+
+.desna {
+	float:right;
+	width:45%;
+    margin:10px 2.5% 0 2.5%;
+	padding:20px;
+	border-radius:5px;
+	background-color:#348781;
+	color:#ddffdd;
+	box-sizing:border-box;
+}
+
+h2 {
+	text-align:center;
+	font-size:300%;
+}
+	
+h3 {
+	text-align:center;
+	font-size:215%;
+}
+
+ol {
+	list-style-type:decimal;
+	margin-left:50px;
+	font-size:200%;
+}
+
+form {
+    width: 300px;
+    margin-left:170px;
+	padding:30px;
+	background-color:rgba(0,0,0,0.6);
+	border-radius:12px;
+	color:white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+	border:none;
+	border-radius:6px;
+	outline:none;
+}
+
+button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background:darkgreen;
+}
+
+.kontakt-naslov {
+	font-size:24px;
+}
+
+.pozadina {
+	background-image:url("plaza.jpg")
+}
+
+.ljetovanje h3 {
+	text-align:left;
+}
+
+.plaze {
+	display:flex;
+	margin-top:30px;
+}
+
+.plaza p {
+	background-color:rgba(0,0,0,0.6);
+	color:#ffffff;
+	padding:10px;
+	margin-top:10px;
+	display:inline-block;
+}
+
+.plaza img {
+	width:90%;
+	height:150px;
+}
+.savjeti h2 {
+	text-align:left;
+	background-color:grey;
+	display:inline-block;
+	padding:5px 10px;
+}
+
+.savjeti ul {
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 0;
+}
+
+.savjeti li {
+    text-align: left;
+}
+
+.savjeti {
+	font-size:20px;
+}
+
+
+.sidebar {
+	position:fixed;
+	top:150px;
+	left:0;
+	width:150px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px;
+    margin: 5px;
+    background-color: #88aadd;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #6688cc;
+}
+
